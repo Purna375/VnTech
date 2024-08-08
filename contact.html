@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Contact Us - VN Tech</title>
+</head>
+<body>
+    <nav>
+        <div class="nav_container">
+            <h1>VN Tech</h1>
+            <div class="nav_menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#services">Engineering Programs</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="contact-header">
+        <h2>Contact Us</h2>
+    </header>
+
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>If you have any questions or need more information, feel free to reach out to us. We're here to help!</p>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 9491729507</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>vijay@vntechinstitute.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>123 Tech Street, Tech City, TC 12345</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"placeholder="Your Full Name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Enter data which program do you want to enroll and your phone number for contact." required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

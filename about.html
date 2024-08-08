@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <title>VN Tech</title>
+</head>
+<body>
+    <nav>
+        <div class="nav_container">
+            <h1>VN Tech</h1>
+            <div class="nav_menu">
+                <a href="index.html">Home</a>
+                <a href="program.html">Engineering Programs</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+   
+    <div class="cont">
+        <div class="container1">
+            <h1>About Company</h1>
+            <p>VN Tech Institute is dedicated to providing high-quality education and practical training in various fields of computer science and engineering. Our goal is to equip students and professionals with the skills needed to excel in the ever-evolving tech industry. </p>
+        </div>
+        <div>
+            <h2>Our Vision and Mission</h2>
+            <p>VN Tech Institute aims to become a leading institution in tech education by providing high-quality education and practical training in various fields of computer science and engineering. Our vision is to empower students and professionals with the skills and knowledge needed to thrive in the ever-evolving tech industry. Our mission is to bridge the gap between academic learning and industry demands by offering hands-on training and real-world experience. We strive to foster an environment of innovation, collaboration, and continuous learning.</p>
+        </div>
+        <div>
+            <h2>Why Choose Us</h2>
+            <li>Experienced Faculty</li>
+            <li>Hands-On Training</li>
+            <li>Flexible Learning Modes</li>
+            <li>Comprehensive Curriculum</li>
+            <li>Industry-Recognized Certifications</li>
+            <li>Career Support</li>
+        </div>
+        <div>
+            <h2>Our Best Services</h2>
+            <li>Internships</li>
+            <li>Workshops</li>
+            <li>Computer Courses</li>
+            <li>IPD Training</li>
+            <li>Academic Projects (Major and Mini)</li>
+        </div>
+        <div>
+            <h2>Additional Services for ECE and EEE Students</h2>
+            <p>VN Tech Institute offers specialized services for Electronics and Communication Engineering (ECE) and Electrical and Electronics Engineering (EEE) students. Our programs provide hands-on experience and in-depth knowledge in key areas.</p>
+        </div>
+        <div>
+            <h3>ECE Students</h3>
+            <p>For ECE students, we offer a range of projects and training modules designed to enhance your technical skills and practical knowledge:</p>
+            <li>IoT Projects: Dive into the world of the Internet of Things (IoT) with projects that involve connecting devices and systems to the internet, allowing for smarter and more efficient solutions.</li>
+            <li>Robotics: Explore the fascinating field of robotics, learning how to design, build, and program robots for various applications.</li>
+            <li>Android Projects: Develop your skills in mobile application development with our Android projects, focusing on creating innovative and user-friendly apps.</li>
+            <li>Embedded Systems: Gain expertise in embedded systems, which are critical in controlling and interfacing with hardware in various electronic devices.</li>
+            <li>Machine Learning Projects: Understand and implement machine learning algorithms and models, applying them to real-world problems and data sets.</li>
+        </div>
+        <div>
+            <h3>EEE Students</h3>
+            <p>For EEE students, we provide projects and training that cover essential areas of electrical engineering:</p>
+            <li>Power Systems: Learn about the generation, transmission, and distribution of electrical power, and work on projects that address the challenges in modern power systems.</li>
+            <li>Power Electronics: Get hands-on experience with power electronics, focusing on the design and application of electronic devices and circuits that control and convert electrical power.</li>
+            <li>Electrical Hardware Projects: Engage in projects that involve designing, testing, and implementing various electrical hardware components, preparing you for a career in electrical engineering.</li>
+            <p>At VN Tech Institute, we are committed to providing a robust educational experience that prepares you for the challenges and opportunities in your respective fields. Join us to advance your knowledge, enhance your skills, and take the next step in your professional journey.</p>
+        </div>
+    </div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav_menu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('open');
+            hamburger.classList.toggle('open');
+        });
+    });
+    </script>
+</body>
+</html>

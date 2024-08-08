@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2e3267; /* Background color for the entire page */
+}
+
+header {
+    background-color: #1f2641;
+    color: #fff;
+    padding: 30px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+.mee{
+    color: white;
+}
+h2{
+    color: white;
+}
+/*#about {
+    background-color: #f9f9f9;
+}*/
+
+h1, h2, p {
+    text-align: center;
+}
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.item-card h3 {
+    margin-top: 0;
+}
+
+.item-card p {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+#cta {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.ram{
+    color:black;
+}
+.footer {
+    background: #1f2641;
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__container > div h4 {
+    margin-bottom: 1.2rem;
+}
+
+.footer__1 p {
+    margin: 2rem 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.7rem;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.footer__socials a {
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer__socials a:hover {
+    color: #007BFF; /* Change to your desired hover color */
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid #ddd; /* Added border color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .item-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-card {
+        width: 90%;
+        max-width: 500px;
+    }
+}
