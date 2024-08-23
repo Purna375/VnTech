@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
-    emailjs.init("jw8-losCLDaq5Ewx8");
+    emailjs.init("YmCOs63Xy2fIIhhHH");
 
     document.getElementById('contactForm').addEventListener('submit', function(event) {
         event.preventDefault();
 
-        emailjs.sendForm('service_sunbw2d', 'template_ago78k8', this)
+        emailjs.sendForm('service_ntqy2lj', 'template_emta7l7', this)
             .then(function() {
                 alert('Message sent successfully!');
             }, function(error) {
